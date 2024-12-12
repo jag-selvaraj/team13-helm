@@ -31,3 +31,11 @@ spec:
             httpGet:
               path: /
               port: http
+          volumeMounts:
+            - name: index-html
+              mountPath: /usr/share/nginx/html/index.html
+              subPath: index.html
+      volumes:
+        - name: index-html
+          configMap:
+            name: hello-world-index
