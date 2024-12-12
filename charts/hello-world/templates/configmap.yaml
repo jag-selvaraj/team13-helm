@@ -12,7 +12,7 @@ data:
         <title>Static Webpage</title>
         <style>
             body {
-                background-color: blue;
+                background-color: red;
                 font-family: Arial, sans-serif;
                 text-align: center;
                 color: white;
